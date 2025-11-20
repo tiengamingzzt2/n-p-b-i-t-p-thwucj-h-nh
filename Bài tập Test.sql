@@ -153,7 +153,8 @@ where payment_status ="Pending" and payment_method =  "Cash";
 
 select r.passenger_id ,r.passenger_full_name, r.passenger_email , r.passenger_bod
 from Passenger r
-order by r.passenger_full_name asc;
+order by r.passenger_full_name asc
+Limit 5 ;
 
 -- 2. Lấy thông tin các chuyến bay gồm mã, tên hãng hàng không, sân bay khởi hành và sân bay đến, sắp xếp theo giá vé giảm dần--
 
